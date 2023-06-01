@@ -4,7 +4,7 @@
 
 ![结构图](./resources/结构图.png)
 
-**parser.py：**对基础sql进行解析，包含WHERE, ORDER BY, GROUP BY, LIMIT的单个或组合，以及各类聚合函数如（SUM, MIN, MAX, COUNT） 等的解析
+**parser.py**对基础sql进行解析，包含WHERE, ORDER BY, GROUP BY, LIMIT的单个或组合，以及各类聚合函数如（SUM, MIN, MAX, COUNT） 等的解析
 
 **table.py:** 数据表类型，包含一切可能的对于数据表的操作，除了CRUD之外，支持链接（join），建立索引等。
 
